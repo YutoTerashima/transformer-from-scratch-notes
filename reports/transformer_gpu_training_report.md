@@ -28,9 +28,9 @@ conda run -n Transformers python scripts/make_report.py
 ```json
 {
   "dataset": "stanfordnlp/imdb",
-  "rows": 384,
-  "vocab_size": 6145,
-  "parameters": 739682,
+  "rows": 5000,
+  "vocab_size": 12000,
+  "parameters": 1301762,
   "device": {
     "requested_device": "cuda",
     "actual_device": "cuda",
@@ -39,16 +39,31 @@ conda run -n Transformers python scripts/make_report.py
     "torch_version": "2.10.0+cu128",
     "cuda_runtime": "12.8"
   },
-  "seconds": 0.479,
+  "seconds": 3.422,
   "history": [
     {
       "epoch": 1,
-      "loss": 0.0846,
+      "loss": 0.0078,
       "val_accuracy": 1.0
     },
     {
       "epoch": 2,
-      "loss": 0.0003,
+      "loss": 0.0001,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0,
       "val_accuracy": 1.0
     }
   ]
