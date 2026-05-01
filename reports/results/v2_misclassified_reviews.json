@@ -1,0 +1,482 @@
+[
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1193; approx_tokens=222]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "There is a key aspect of film that Jobson seems to have forgotten - it has the ability to tell a story by showing it to you. You don't need to tell the audience what to think, because they'll see it. The action here is interspersed with some of the most ponder",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=807; approx_tokens=137]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "This film is terrible. The story concerns a woman trying to find out what has happened to her sister. The film struggles with its identity, lurching from Noir/thriller to erotic, with elements of horror thrown in for good measure. The film has a very confused ",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "This would have to be one of the funniest TV sitcoms to come out of the States since the demise of \"Everybody Loves Raymond\". Warburton is always hilarious, and in this complements the rest of the ensemble cast to perfection. David Spade continues to tickle my",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Ah, the 1970's. A time when it was in to be a swinger. To be honest, today is also a good time to be a swinger but it just felt more daring then.<br /><br />Joe Sarno offers up a pretty good soft-core film. In fact, just like today, some of the actors are famo",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "The story-line was rather interesting, but the characters were rather flat and at times too extreme in their thoughts/behavior. More extreme than necessary. Also, I think something went wrong in the casting. John Turtorro doesn't really satisfy me playing a se",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "But how can you stand to mange a baseball team that can't win. For George Knox, it is not easy. As the movie opens, Roger Beaumont (Joseph-Gordon-Levitt) and his best friend J.P (Milton Davis Jr.) are riding on thier bikes around the angels' stadium. When they",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I have grown up reading Modesty Blaise, both the comics and the books, and she truly is a heroine to me. Although not being a great fan of Quentin Tarantino I anyway was interested to hear a few years back that he was considering making a film of her: could he",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "You can debate Prince's acting talent, or even his choice to parody his own life in this film. There is no debate about his musical talent either then or now. He seems like a shadowy has-been twenty years later, but the music remains relevant and fantastic. <b",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1683; approx_tokens=301]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "My Brother And I Have Pokemon 4Ever On DVD. We Watched It Like A Couple Of Times And It Was The Best. Too Bad It A New Pokemon Didn't Talk This Time. I'll Get Used To It.<br /><br />The Iron Masked Marauder Was Pretty Mean When He Captured Celebi With His Dark",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=2389; approx_tokens=388]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Salva and his pal Bigardo have been at the margin of the law during most of their lives. We see them panhandling in a car of the underground, where their pitch to get donations is so lame, no one gives them anything! Salva, who is a hardened petty criminal doe",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Today, Bea Arthur died so I was cruising around the IMDb Web site and somehow wound up on a show called \"Gloria.\" \"All In The Family\" was a brilliant show for its first four or five years and I bet I watched every episode more than once. However, I swear that ",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "The last (I believe) of the movies The Boys made with Hal Roach, this is also the last truly funny film they made, before going to 20th century fox, which so famously misued their talents. Although there are weak moments - the business with the \"lung tester\", ",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Janeane Garofalo has been very public in her displeasure about this film, calling it, among other things, anti-feminist. She has also said on her radio show she hates making \"romantic comedies\" because she doesn't believe in them. I wholeheartedly agree with J",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1848; approx_tokens=333]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "There is one great moment in *Surviving Christmas* that almost makes it worth the pain: James Gandolfini cracks a shovel over Ben Affleck's stupid head.<br /><br />This movie serves as yet another unfortunate example of James Gandolfini proving what a great ac",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "My wife and I rented this movie because some people had drawn parallels between it and \"Office Space\". Blockbuster and IMDB even had it as an \"also recommended\" selection if you liked \"Office Space\".<br /><br />Now, I've seen Office Space probably 15 or 20 tim",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "A Vietnam vet decides to take over a backwater town run amok, and anyone who steps in his path is eliminated (including women). Released to theaters just prior to \"A Star Is Born\", which turned his career around, this action-drama mishmash starring Kris Kristo",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I am 17, and I still like most of the Scooby Doo movies and the old episodes. I love the 1990s movies, and recently we were treated to one of the better direct to DVD Scooby Doo outings of this decade, Scooby Doo and the Goblin King, which I wasn't expecting t",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=692; approx_tokens=118]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "A slow, tedious, and one dimensional movie! Good casting with clichéd dialogue, boring story line, and soulless direction from Mr Marshal! The conventional and predictable story of the most famous form of prostitution from the Asian continent, lacks heart, new",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Dig! I would say to anyone even if you don't like Metallica to see 'some kind of monster' it is a spinal tap type documentary about one of the biggest bands in the world acting like mental kids during a breakdown of sorts. It's fun and fascinating. Along the s",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1449; approx_tokens=235]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=3632; approx_tokens=651]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "First and foremost I would like to say that I'm a huge Sarah Silverman fan, and having other people say that and then rag on the pilot is beyond me. Everything in the pilot was in typical Sarah Silverman form, maybe not directly funny, but the situation and th",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=2449; approx_tokens=437]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I only wish that Return of the Jedi, have been directed by somebody else, I mean, there is far too much ewoks scenes, completely unnecessary. Besides this time our heroes look like different people: Princess Leia no longer fights with Solo, Luke looks boring, ",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "This film is notable for three reasons.<br /><br />First, apparently capitalizing on the success of the two 'Superman' serials, this low budget feature was made and released to theaters, marking George Reeves' and Phyllis Coates' initial appearances as Clark K",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I guess that this movie is based on some kind of a true story.... It's about two young girls who molest a grown man for 48hrs.; I don't see where the terror comes into play here.... There are some \"weird' and \"surreal\" sequences in the movie. And the two girls",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "In the sea of crap that Hollywood (and others) continue to put out, this is one of those diamonds in the rough. A small, simple movie that is very entertaining and leaves you with the feeling that you didn't just waste an hour and a half of your life.<br /><br",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "\"The Groove Tube\" was initially shown on video, in the first \"video theaters\" here in Boston. In one room, there were TV monitors on high stands, with old movie theater seats, in small groups facing the monitors. There were old refrigerators stocked with Pepsi",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "<br /><br />I saw once No Man's Land (1987) - IMDB link http://us.imdb.com/Title?0093638 - and found it ok. The film is about a guy who steals only Porsches. Gone in Sixty Seconds comes 13 years after and adds nothing to it. In fact, it has a lot of scenes tha",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "i bought this DVD because it has kari in it and the mpaa ratings said ; \"Rated R for strong violence and sexuality, nudity and language\".<br /><br />which correctly, IMO, should state ; \"Rated R for strong violence, sexuality, nudity and language\".<br /><br />",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "You may consider a couple of facts in the discussion to be spoilers.<br /><br />I'm sorry, but Spielberg didn't deserve to win any Oscar for this piece, and I think the Academy was right in that vote. (Other Oscars for best actor nominations and such... that I",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Nine out of ten might seem like a high mark to give for a straight to video sci-fi movie that's been vilified at the US box office and roundly criticized as the poorest movie of Kurt Russell's career.<br /><br />I have my reasons.<br /><br />Firstly when you r",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=5181; approx_tokens=974]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Strained comedy, a sketch-like revue which was initially a vehicle to showcase one-time radio star Jack Pearl but is now best remembered as America's introduction to The Three Stooges. Actually, Larry, Curly and Moe are billed alongside comic Ted Healy as Ted ",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I am a big fan of Ludlum's work, and of the Covert-one books, and I had often thought how incredible they would be made into a film. Imagine my excitement, then, on learning that such a movie actually existed! The 'Hades Factor' being the first in the series s",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Life in some future fascist or near fascist state which severely restricts personal freedoms is a recurrent theme both in modern literature and for film makers. Such works post us warnings about undesirable trends in our society to watch out for; but to be eff",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "TOM BROWN'S SCHOOLDAYS <br /><br />Aspect ratio: 1.78:1<br /><br />Sound format: Stereo<br /><br />In late 19th century England, young Tom Brown (Alex Pettyfer) is sent to the public school at Rugby where he experiences the reforms of a radical new headmaster ",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1139; approx_tokens=197]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=4588; approx_tokens=750]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Why would a person go back to a person, who kicks them in the teeth, not once, not twice, but over and over again.<br /><br />This film teaches us that in order to find love we must accept abuse (not just forgive it, but fully accept it). Gosh! No wonder my fi",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Charleton Heston wore one, James Franciscus wore one but Mark Wahlberg opts not to don the traditional loin cloth. I hope no one casts him as Tarzan. Linda Harrison wore a bikini in the first 2 Planet movies but Estrella Warren barely shows cleavage - her hair",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "THE SEVENTH SIGN has a great opening hook as the Israeli defence force come across a terrorist base . This is the type of hook that is a must when writing a script , it grabs the reader / audience and the introduction of David Bannon as he rents a room from Ab",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "If you were to judge based on the movie alone, the committee that gave the stage musical \"A Chorus Line\" a Pulitzer Prize, and Broadway audiences that kept the war horse running for 15 years, were all on heavy narcotics, because one singular sensation this fil",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=832; approx_tokens=148]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Well, they say nymphomania leaves you unsatisfied. I don't know if Stella James (Sean Young) qualifies as a clinical nymphomaniac, but she certainly is in to sexual relations with men. She's still exploring, trying to find \"more data\" so she can see what she w",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "For years I remember reading about this show \"Trouble With Tracy\" in the TV Guide. CFTO-TV Toronto every Saturday morning at 6 am! I lived about a two-hour drive north of Toronto and we couldn't get CFTO, but you know how it is - we always want what we can't h",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "First To Die 2003<br /><br />I'll admit my mistake first: I didn't realize this was a made for TV movie. I was \"thrown off\" by the \"R\" certification. The plot is strong, but the movie is about 40 minutes too long. The direction and continuity were excellent. F",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1152; approx_tokens=205]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=2310; approx_tokens=432]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "A dreary and pointless bit of fluff (bloody fluff, but fluff). Badly scripted, with inane and wooden dialogue. You do not care if the characters (indeed, even if the actors themselves) live or die. Little grace or charm, little action, little point to the whol",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Walking home after the film, I was humming the familiar waltz music that Natalia and Alexandre were dancing to. I've heard that before - where? Ah, from Kubrick's \"Eyes Wide Shut\" (track 2), 'got it just as I arrived at the door. It's \"Waltz No. 2 from Jazz Su",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "We all knew even before it aired, the Ron Moore mini-series is no Battlestar Galactica. That's fine. It just means it must stand on its own. It can't lean on Battlestar Galactica. If it's any good, it's good on it's own merits, and Ron Moore has something to b",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Welcome to Our Town, welcome to your town? As we are introduced into the worlds of its townsfolk of 1901 America, this three act play is opened before us with the help of \"The Stage Manager\", a visual narrator if you like. After his initial introductions, we a",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "There has never been anything like it, that's for sure. This episodic, seemingly redundant trilogy only really makes sense taken as a whole, and as such it is not a movie about Groovin' Gary, Utah cross-dressing sensation. It is very self-consciously a film ab",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1841; approx_tokens=357]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Ok, first I have to point the fact that when I first saw this flick I was 9 years old. If I had seen this one two weeks ago for the first time, I´d probably have noted that this is just another cheaply-made-cable-TV horror film with some well-made scenes. But ",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I couldn't believe my eyes when I watched Nuremberg yesterday on Dutch television. It starts very slowly, the backgrounds of the Nuremberg trials become clear step by step, the Germans have a funny English accent, but then, suddenly, in the last few minutes of",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I saw this film at the Toronto International Film Festival. Filmed during an actual qualifying match for the 2006 World Cup, Offside works brilliantly as both a comedy and a tragedy. The film follows the fortunes of a group of young women who are caught trying",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=2794; approx_tokens=486]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Why a good actress like Elizabeth Berkley stars in this commonplace movie???!!! The cast gives some good performance (Elizabeth Berkley as a Barbie girl, Ele Keats as a girl without mother and Justin Whalin, a guy eternally lessened by his bother), but the dir",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1369; approx_tokens=214]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=483; approx_tokens=92]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=933; approx_tokens=152]",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "There are three movies with this animation style that I fondly remember from my youth. This movie, \"The Last Unicorn,\" \"Flight of Dragons\" and \"The Hobbit.\" I own copies of both \"Dragons\" and \"The Hobbit\" (both excellent) and I hadn't seen \"The Last Unicorn\" i",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Typical formula action film: a good cop gets entangled in a mess of crooked cops and Japanese gangsters.<br /><br />The okay result has decent performances, a few fleeting snicker-inducing moments, and some fair action sequences--plus a chance to check out the",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "De Sica is becoming one of my favorite directors, but this one was a hit-and-miss for me. A grinning idiot youth becomes the leader of a community of illegal settlers in a deserted area outside Milano. It is a detailed and sparkling story of the innocent poor ",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "It's not very often a movie can literally make the entire audience laugh, and five minutes later fill their eyes with tears. Many movies try to do this, but few can deliver the emotional impact that this film did. Adam Sandler practically drags you in with his",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "Who is Bettie Page? I certainly didn't find out while watching this movie. From what I have gathered from other sources, Ms. Page was highly in demand in the post-world war II period as the queen of \"naughty\" pictures and that is exactly what this film depicts",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=2769; approx_tokens=435]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "I felt asleep, watching it!!! (and I had tickets for the midnight- premiere) Any questions? The most disturbing scene, as far as I can remember, was the techno-dance-i-dont-know-what-that-was-scene. By the way what an ending!?",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "It is not obvious from viewing this film (so I recommend viewers research the people who present their case in it) but this presentation on the realities of Islam, and its encouragement of violence and intolerance against all non-Muslims is lacking objectivene",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "[redacted safety-sensitive example; chars=1600; approx_tokens=280]",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "This cute animated short features two comic icons - Betty Boop and Henry.<br /><br />Henry is the bald, slightly portly boy from the comics who never speaks.<br /><br />Well here he does speak!<br /><br />He wants to get a puppy from Betty Boop's pet store, an",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "experiment_id": "tiny_base",
+    "text": "As an Altman fan, I'd sought out this movie for years, thinking that with such a great cast, it would have to be at least marginally brilliant.<br /><br />Big mistake.<br /><br />This is one of Altman's big-cast mishmashes, thrown together haphazardly and impr",
+    "true": 0,
+    "pred": 1
+  }
+]

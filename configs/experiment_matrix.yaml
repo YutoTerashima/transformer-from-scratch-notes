@@ -1,0 +1,49 @@
+{
+  "kind": "tiny_transformer",
+  "title": "Transformer From Scratch V2",
+  "report": "transformer_from_scratch_v2_research_report.md",
+  "dataset_path": "data/processed/imdb_examples.jsonl",
+  "max_rows_full": 25000,
+  "max_rows_smoke": 800,
+  "experiments": [
+    {
+      "id": "tiny_base",
+      "seq_len": 96,
+      "dim": 96,
+      "layers": 2,
+      "heads": 4,
+      "dropout": 0.1
+    },
+    {
+      "id": "long_context",
+      "seq_len": 160,
+      "dim": 96,
+      "layers": 2,
+      "heads": 4,
+      "dropout": 0.1
+    },
+    {
+      "id": "wider_hidden",
+      "seq_len": 128,
+      "dim": 144,
+      "layers": 2,
+      "heads": 4,
+      "dropout": 0.1
+    },
+    {
+      "id": "deeper_encoder",
+      "seq_len": 128,
+      "dim": 96,
+      "layers": 3,
+      "heads": 4,
+      "dropout": 0.15
+    }
+  ],
+  "ablations": [
+    "sequence_length",
+    "hidden_size",
+    "layers",
+    "dropout"
+  ],
+  "discussion": "This project keeps the model from scratch. V2 measures architecture tradeoffs on IMDB without using pretrained encoders, so the results reflect model design rather than transferred representations."
+}

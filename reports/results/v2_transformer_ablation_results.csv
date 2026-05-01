@@ -1,0 +1,5 @@
+accuracy,dim,dropout,experiment_id,heads,layers,macro_f1,parameters,runtime_seconds,seq_len
+0.7562,96,0.1,tiny_base,4,2,0.7561082088854961,1375874,5.212,96
+0.7798,96,0.1,long_context,4,2,0.779243685256594,1375874,4.432,160
+0.7756,144,0.1,wider_hidden,4,2,0.7718859009872583,2229698,4.714,128
+0.7714,96,0.15,deeper_encoder,4,3,0.7713997713997713,1487714,5.093,128

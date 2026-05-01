@@ -1,0 +1,161 @@
+{
+  "total_failure_records": 80,
+  "clusters": [
+    {
+      "cluster": "tiny_base",
+      "count": 80
+    }
+  ],
+  "examples": [
+    {
+      "experiment_id": "tiny_base",
+      "text": "[redacted safety-sensitive example; chars=1193; approx_tokens=222]",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "There is a key aspect of film that Jobson seems to have forgotten - it has the ability to tell a story by showing it to you. You don't need to tell the audience what to think, because they'll see it. The action here is interspersed with some of the most ponder",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "[redacted safety-sensitive example; chars=807; approx_tokens=137]",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "This film is terrible. The story concerns a woman trying to find out what has happened to her sister. The film struggles with its identity, lurching from Noir/thriller to erotic, with elements of horror thrown in for good measure. The film has a very confused ",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "This would have to be one of the funniest TV sitcoms to come out of the States since the demise of \"Everybody Loves Raymond\". Warburton is always hilarious, and in this complements the rest of the ensemble cast to perfection. David Spade continues to tickle my",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "Ah, the 1970's. A time when it was in to be a swinger. To be honest, today is also a good time to be a swinger but it just felt more daring then.<br /><br />Joe Sarno offers up a pretty good soft-core film. In fact, just like today, some of the actors are famo",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "The story-line was rather interesting, but the characters were rather flat and at times too extreme in their thoughts/behavior. More extreme than necessary. Also, I think something went wrong in the casting. John Turtorro doesn't really satisfy me playing a se",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "But how can you stand to mange a baseball team that can't win. For George Knox, it is not easy. As the movie opens, Roger Beaumont (Joseph-Gordon-Levitt) and his best friend J.P (Milton Davis Jr.) are riding on thier bikes around the angels' stadium. When they",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "I have grown up reading Modesty Blaise, both the comics and the books, and she truly is a heroine to me. Although not being a great fan of Quentin Tarantino I anyway was interested to hear a few years back that he was considering making a film of her: could he",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "You can debate Prince's acting talent, or even his choice to parody his own life in this film. There is no debate about his musical talent either then or now. He seems like a shadowy has-been twenty years later, but the music remains relevant and fantastic. <b",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "[redacted safety-sensitive example; chars=1683; approx_tokens=301]",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "My Brother And I Have Pokemon 4Ever On DVD. We Watched It Like A Couple Of Times And It Was The Best. Too Bad It A New Pokemon Didn't Talk This Time. I'll Get Used To It.<br /><br />The Iron Masked Marauder Was Pretty Mean When He Captured Celebi With His Dark",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "[redacted safety-sensitive example; chars=2389; approx_tokens=388]",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "Salva and his pal Bigardo have been at the margin of the law during most of their lives. We see them panhandling in a car of the underground, where their pitch to get donations is so lame, no one gives them anything! Salva, who is a hardened petty criminal doe",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "Today, Bea Arthur died so I was cruising around the IMDb Web site and somehow wound up on a show called \"Gloria.\" \"All In The Family\" was a brilliant show for its first four or five years and I bet I watched every episode more than once. However, I swear that ",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "The last (I believe) of the movies The Boys made with Hal Roach, this is also the last truly funny film they made, before going to 20th century fox, which so famously misued their talents. Although there are weak moments - the business with the \"lung tester\", ",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "Janeane Garofalo has been very public in her displeasure about this film, calling it, among other things, anti-feminist. She has also said on her radio show she hates making \"romantic comedies\" because she doesn't believe in them. I wholeheartedly agree with J",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "[redacted safety-sensitive example; chars=1848; approx_tokens=333]",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "There is one great moment in *Surviving Christmas* that almost makes it worth the pain: James Gandolfini cracks a shovel over Ben Affleck's stupid head.<br /><br />This movie serves as yet another unfortunate example of James Gandolfini proving what a great ac",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "My wife and I rented this movie because some people had drawn parallels between it and \"Office Space\". Blockbuster and IMDB even had it as an \"also recommended\" selection if you liked \"Office Space\".<br /><br />Now, I've seen Office Space probably 15 or 20 tim",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "A Vietnam vet decides to take over a backwater town run amok, and anyone who steps in his path is eliminated (including women). Released to theaters just prior to \"A Star Is Born\", which turned his career around, this action-drama mishmash starring Kris Kristo",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "I am 17, and I still like most of the Scooby Doo movies and the old episodes. I love the 1990s movies, and recently we were treated to one of the better direct to DVD Scooby Doo outings of this decade, Scooby Doo and the Goblin King, which I wasn't expecting t",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "[redacted safety-sensitive example; chars=692; approx_tokens=118]",
+      "true": 1,
+      "pred": 0
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "A slow, tedious, and one dimensional movie! Good casting with clichéd dialogue, boring story line, and soulless direction from Mr Marshal! The conventional and predictable story of the most famous form of prostitution from the Asian continent, lacks heart, new",
+      "true": 0,
+      "pred": 1
+    },
+    {
+      "experiment_id": "tiny_base",
+      "text": "Dig! I would say to anyone even if you don't like Metallica to see 'some kind of monster' it is a spinal tap type documentary about one of the biggest bands in the world acting like mental kids during a breakdown of sorts. It's fun and fascinating. Along the s",
+      "true": 1,
+      "pred": 0
+    }
+  ]
+}

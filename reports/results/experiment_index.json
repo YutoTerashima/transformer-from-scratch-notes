@@ -1,0 +1,75 @@
+{
+  "title": "Transformer From Scratch V2",
+  "kind": "tiny_transformer",
+  "dataset_path": "data/processed/imdb_examples.jsonl",
+  "profile": "full",
+  "generated_at": "2026-05-02 08:07:57",
+  "git_commit": "bc2d99b",
+  "device": {
+    "requested_device": "cuda",
+    "actual_device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "torch_version": "2.10.0+cu128",
+    "cuda_runtime": "12.8"
+  },
+  "results": [
+    {
+      "experiment_id": "tiny_base",
+      "accuracy": 0.7562,
+      "macro_f1": 0.7561082088854961,
+      "parameters": 1375874,
+      "runtime_seconds": 5.212,
+      "seq_len": 96,
+      "dim": 96,
+      "layers": 2,
+      "heads": 4,
+      "dropout": 0.1
+    },
+    {
+      "experiment_id": "long_context",
+      "accuracy": 0.7798,
+      "macro_f1": 0.779243685256594,
+      "parameters": 1375874,
+      "runtime_seconds": 4.432,
+      "seq_len": 160,
+      "dim": 96,
+      "layers": 2,
+      "heads": 4,
+      "dropout": 0.1
+    },
+    {
+      "experiment_id": "wider_hidden",
+      "accuracy": 0.7756,
+      "macro_f1": 0.7718859009872583,
+      "parameters": 2229698,
+      "runtime_seconds": 4.714,
+      "seq_len": 128,
+      "dim": 144,
+      "layers": 2,
+      "heads": 4,
+      "dropout": 0.1
+    },
+    {
+      "experiment_id": "deeper_encoder",
+      "accuracy": 0.7714,
+      "macro_f1": 0.7713997713997713,
+      "parameters": 1487714,
+      "runtime_seconds": 5.093,
+      "seq_len": 128,
+      "dim": 96,
+      "layers": 3,
+      "heads": 4,
+      "dropout": 0.15
+    }
+  ],
+  "artifacts": [
+    "reports\\results\\v2_transformer_ablation_results.csv",
+    "reports\\results\\v2_misclassified_reviews.json",
+    "reports\\figures\\v2_transformer_accuracy.png",
+    "reports\\figures\\v2_transformer_f1.png",
+    "reports\\figures\\v2_transformer_parameters.png"
+  ],
+  "discussion": "This project keeps the model from scratch. V2 measures architecture tradeoffs on IMDB without using pretrained encoders, so the results reflect model design rather than transferred representations.",
+  "total_runtime_seconds": 20.535
+}
