@@ -40,3 +40,8 @@ residual connection, layer normalization, and feed-forward transformation.
 A 100-step training log and analysis report live in
 [`reports/full_training_log.csv`](reports/full_training_log.csv) and
 [`reports/full_training_report.md`](reports/full_training_report.md).
+
+## Checkpoint Format
+
+The project includes a simple JSON checkpoint format so toy training runs can save
+step, weights, and metrics in a reproducible artifact.
