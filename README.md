@@ -24,3 +24,8 @@ scope, and next experiments.
 ## Portfolio Notes
 
 This is the fundamentals signal: readable mechanics before framework abstraction.
+
+## Experiment Artifacts
+
+- Training curve: [`reports/tiny_training_curve.csv`](reports/tiny_training_curve.csv)
+- Analysis: [`reports/tiny_training_analysis.md`](reports/tiny_training_analysis.md)
