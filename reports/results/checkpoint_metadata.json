@@ -1,0 +1,17 @@
+{
+  "checkpoint_policy": "Weights are not committed to GitHub. This metadata records the reproducibility surface for the locally generated tiny Transformer checkpoint.",
+  "excluded_artifact": "reports/results/tiny_transformer_checkpoint.pt",
+  "excluded_size_bytes": 5218790,
+  "excluded_sha256": "24FD603721AB0830D7AE86DC43C9387028E0D175D32BACB736148D127178818C",
+  "model_family": "from-scratch TransformerEncoder classifier",
+  "dataset": "stanfordnlp/imdb processed sample",
+  "recreate_command": "conda run -n Transformers python scripts/run_matrix.py --device cuda --profile full",
+  "tracked_replacements": [
+    "reports/results/experiment_index.json",
+    "reports/results/v2_transformer_ablation_results.csv",
+    "reports/results/tiny_transformer_metrics.json",
+    "reports/figures/v2_transformer_accuracy.png",
+    "reports/figures/v2_transformer_f1.png",
+    "reports/figures/v2_transformer_parameters.png"
+  ]
+}

@@ -10,4 +10,3 @@ data/cache/
 models/
 *.pt
 *.ckpt
-!reports/results/tiny_transformer_checkpoint.pt
