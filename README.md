@@ -34,3 +34,9 @@ This is the fundamentals signal: readable mechanics before framework abstraction
 
 The repository now includes a tiny transformer-block sketch with attention,
 residual connection, layer normalization, and feed-forward transformation.
+
+## Full Training Log
+
+A 100-step training log and analysis report live in
+[`reports/full_training_log.csv`](reports/full_training_log.csv) and
+[`reports/full_training_report.md`](reports/full_training_report.md).
