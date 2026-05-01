@@ -15,3 +15,12 @@ pytest
 
 This repo is a fundamentals signal: it shows the mechanics behind transformer
 systems rather than only API-level usage.
+
+## Research Brief
+
+See [`docs/research_brief.md`](docs/research_brief.md) for the learning goals,
+scope, and next experiments.
+
+## Portfolio Notes
+
+This is the fundamentals signal: readable mechanics before framework abstraction.
