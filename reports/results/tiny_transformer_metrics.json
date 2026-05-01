@@ -1,0 +1,27 @@
+{
+  "dataset": "stanfordnlp/imdb",
+  "rows": 384,
+  "vocab_size": 6145,
+  "parameters": 739682,
+  "device": {
+    "requested_device": "cuda",
+    "actual_device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "torch_version": "2.10.0+cu128",
+    "cuda_runtime": "12.8"
+  },
+  "seconds": 0.479,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.0846,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 2,
+      "loss": 0.0003,
+      "val_accuracy": 1.0
+    }
+  ]
+}

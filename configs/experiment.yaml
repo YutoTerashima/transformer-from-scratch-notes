@@ -1,0 +1,9 @@
+{
+  "kind": "tiny_transformer",
+  "dataset": "stanfordnlp/imdb",
+  "config": "plain_text",
+  "split": "train",
+  "report": "transformer_gpu_training_report.md",
+  "title": "Transformer GPU Training Report",
+  "description": "From-scratch TransformerEncoder classifier trained on real IMDB text."
+}

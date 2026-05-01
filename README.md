@@ -51,3 +51,18 @@ step, weights, and metrics in a reproducible artifact.
         [stanfordnlp/imdb](https://huggingface.co/datasets/stanfordnlp/imdb). This gives the
         from-scratch transformer notes a real text distribution for vocabulary, sequence-length,
         and batching discussion.
+
+## GPU-Backed Real Experiment
+
+This repository now includes a reproducible GPU-backed experiment using `stanfordnlp/imdb`.
+The smoke path runs on the local RTX 5090 Laptop GPU through the `Transformers` conda
+environment and writes metrics, figures, and a markdown report.
+
+```powershell
+conda run -n Transformers python scripts/download_data.py --smoke
+conda run -n Transformers python scripts/preprocess_data.py --max-samples 384
+conda run -n Transformers python scripts/run_experiment.py --device cuda --smoke
+conda run -n Transformers python scripts/make_report.py
+```
+
+Main report: `reports/transformer_gpu_training_report.md`.
