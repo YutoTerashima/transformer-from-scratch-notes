@@ -45,3 +45,9 @@ A 100-step training log and analysis report live in
 
 The project includes a simple JSON checkpoint format so toy training runs can save
 step, weights, and metrics in a reproducible artifact.
+## Real Public Dataset Experiment
+
+        `datasets/external/imdb_token_stats.jsonl` contains token statistics derived from
+        [stanfordnlp/imdb](https://huggingface.co/datasets/stanfordnlp/imdb). This gives the
+        from-scratch transformer notes a real text distribution for vocabulary, sequence-length,
+        and batching discussion.
