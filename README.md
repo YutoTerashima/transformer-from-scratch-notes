@@ -68,15 +68,60 @@ conda run -n Transformers python scripts/make_report.py
 Main report: `reports/transformer_gpu_training_report.md`.
 
 <!-- V2_RESEARCH_UPGRADE -->
-## Publishable V2 Research Upgrade
+## Publishable V2 Research Results
 
-This repository now includes a project-level V2 experiment suite:
+This repository now includes a full V2 research suite with real data, multiple baselines, ablations, result artifacts, figures, and failure analysis. The README summarizes the measured run so the project can be judged from results, not just project intent.
 
-- Reproducible matrix: `configs/experiment_matrix.yaml`
-- Main runner: `scripts/run_matrix.py --device cuda --profile full`
-- Failure analysis: `scripts/analyze_failures.py`
-- Research report: `reports/transformer_from_scratch_v2_research_report.md`
-- Experiment index: `reports/results/experiment_index.json`
+### Dataset And Scale
 
-The V2 artifacts include multiple experiments, ablations, figures, failure cases, and a discussion section while keeping raw caches and large checkpoints out of Git.
+IMDB train+test, 50,000 processed reviews; the V2 training matrix uses 25,000 examples for from-scratch TransformerEncoder ablations.
 
+- Full-profile result rows: `4`
+- Experiment profile: `full`
+- Experiment index: [`reports/results/experiment_index.json`](reports/results/experiment_index.json)
+- Full report: [`reports/transformer_from_scratch_v2_research_report.md`](reports/transformer_from_scratch_v2_research_report.md)
+
+### Main Results
+
+| experiment_id | accuracy | macro_f1 | parameters | seq_len | dim | layers | runtime_seconds |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| tiny_base | 0.7562 | 0.7561 | 1,375,874 | 96.0000 | 96.0000 | 2.0000 | 5.2120 |
+| long_context | 0.7798 | 0.7792 | 1,375,874 | 160.0 | 96.0000 | 2.0000 | 4.4320 |
+| wider_hidden | 0.7756 | 0.7719 | 2,229,698 | 128.0 | 144.0 | 2.0000 | 4.7140 |
+| deeper_encoder | 0.7714 | 0.7714 | 1,487,714 | 128.0 | 96.0000 | 3.0000 | 5.0930 |
+
+### Analysis
+
+- The long-context variant is the best measured configuration, reaching about 0.780 accuracy and 0.779 macro-F1 without pretrained encoders.
+- Widening the hidden dimension improves over the tiny baseline but costs more parameters; deeper layers are competitive but not clearly superior in this short training budget.
+- The result is deliberately not a pretrained-model leaderboard: it demonstrates tokenizer, batching, TransformerEncoder training, ablations, curves, and misclassification analysis from scratch.
+- Checkpoint weights are excluded from GitHub; the repo commits curves, metrics, parameter counts, and reproduction commands instead.
+
+### Failure Analysis
+
+- `tiny_base`: 80 records
+
+The public failure artifacts use redacted previews or structured metadata where source examples may contain harmful, private, or otherwise sensitive text. This keeps the analysis reproducible without turning the README into a prompt-injection or unsafe-content corpus.
+
+### Key Artifacts
+
+- [`reports/results/v2_transformer_ablation_results.csv`](reports/results/v2_transformer_ablation_results.csv)
+- [`reports/results/v2_misclassified_reviews.json`](reports/results/v2_misclassified_reviews.json)
+- [`reports/figures/v2_transformer_accuracy.png`](reports/figures/v2_transformer_accuracy.png)
+- [`reports/figures/v2_transformer_f1.png`](reports/figures/v2_transformer_f1.png)
+- [`reports/figures/v2_transformer_parameters.png`](reports/figures/v2_transformer_parameters.png)
+
+Figures:
+
+- [`reports/figures/v2_transformer_accuracy.png`](reports/figures/v2_transformer_accuracy.png)
+- [`reports/figures/v2_transformer_f1.png`](reports/figures/v2_transformer_f1.png)
+- [`reports/figures/v2_transformer_parameters.png`](reports/figures/v2_transformer_parameters.png)
+
+### Reproduction
+
+```powershell
+conda run -n Transformers python scripts/run_matrix.py --device cuda --profile full
+conda run -n Transformers python scripts/analyze_failures.py
+conda run -n Transformers python scripts/make_report.py
+conda run -n Transformers python -m pytest
+```
