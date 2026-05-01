@@ -29,3 +29,8 @@ This is the fundamentals signal: readable mechanics before framework abstraction
 
 - Training curve: [`reports/tiny_training_curve.csv`](reports/tiny_training_curve.csv)
 - Analysis: [`reports/tiny_training_analysis.md`](reports/tiny_training_analysis.md)
+
+## Transformer Block
+
+The repository now includes a tiny transformer-block sketch with attention,
+residual connection, layer normalization, and feed-forward transformation.
