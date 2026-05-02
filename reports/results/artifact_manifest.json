@@ -1,0 +1,483 @@
+{
+  "repo": "transformer-from-scratch-notes",
+  "generated_at_utc": "2026-05-02T07:25:23.073085+00:00",
+  "git_commit": "a073e4f",
+  "artifacts": [
+    {
+      "path": "configs/experiment.yaml",
+      "kind": "configuration",
+      "size_bytes": 310,
+      "sha256": "5cc7341b69ebd912d5b11a50ef0d285bbdc76046587f82535a00f08614d0082d",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "configs/experiment_matrix.yaml",
+      "kind": "configuration",
+      "size_bytes": 1176,
+      "sha256": "033abd7275e4382e7c8e663fa476ae3fd75f9a325de336a768ac2012fe4af66e",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "reports/figures/tiny_transformer_curve.png",
+      "kind": "figure",
+      "size_bytes": 29507,
+      "sha256": "eba3a84e866b7a7e79fadc0e5ffc2f4840e9822f9bba8160f25f2a5fa56ccfcc",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/top_tier_review_scores.png",
+      "kind": "figure",
+      "size_bytes": 45756,
+      "sha256": "f9244db1f1eb9013361643eac751f66da9537998a11c0e38ff2ad0b5211aa405",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_transformer_accuracy.png",
+      "kind": "figure",
+      "size_bytes": 60569,
+      "sha256": "7c9490c50bcd2b15efe7515414e3f2f76ee5bdc7bfca42f2a97bb21adb9746a6",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_transformer_f1.png",
+      "kind": "figure",
+      "size_bytes": 58754,
+      "sha256": "292c8955c2090a71d5fc06cd03837c50a906e54a336e756a9f7b5f54a6509e9a",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_transformer_parameters.png",
+      "kind": "figure",
+      "size_bytes": 51016,
+      "sha256": "59e4a991211218b2a77a06798ca203904bd15e27574e07a2075808172d3bc8d9",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/full_training_log.csv",
+      "kind": "metric_table",
+      "size_bytes": 2335,
+      "sha256": "c2ff87c4d8e3f97278ab9c7fd88e45a82f3a685ff8e00f31983e22c1e448534a",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/results/claim_evidence_matrix.csv",
+      "kind": "metric_table",
+      "size_bytes": 1485,
+      "sha256": "353cea5cf1df68d7d2b0064181b30a1416f9cc62d72bd52fdbbd818e761cd7e8",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/tiny_transformer_curve.csv",
+      "kind": "metric_table",
+      "size_bytes": 86,
+      "sha256": "e2cc94021112863799e5feb2327f37efd054f9d728838898787b53d22ed017f4",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_deeper_encoder_curve.csv",
+      "kind": "metric_table",
+      "size_bytes": 55,
+      "sha256": "2d168693ed6a9c22e380f428c09bb40269944aac827e7a3ac5323a06b8c869f2",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_long_context_curve.csv",
+      "kind": "metric_table",
+      "size_bytes": 57,
+      "sha256": "3c2261a73809b380f97a0625e713963a68e5555be84435b9bca7fded4248975e",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_tiny_base_curve.csv",
+      "kind": "metric_table",
+      "size_bytes": 56,
+      "sha256": "876c2b164e0fd86f11399bd4db28fd9b85f68758be95c775b65496ca7ef7b503",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_transformer_ablation_results.csv",
+      "kind": "metric_table",
+      "size_bytes": 368,
+      "sha256": "51ec3e2ac61aef520c06f670179d8fb0074c1dcb5361c584d856526705e89c34",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_wider_hidden_curve.csv",
+      "kind": "metric_table",
+      "size_bytes": 57,
+      "sha256": "b084d2d4bf68e030d830e2b43bd21f0add411781a9747c8a4cd4c5fe89e6137e",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/tiny_training_curve.csv",
+      "kind": "metric_table",
+      "size_bytes": 690,
+      "sha256": "b2f07a21c18ce237b1d894f61f385967ec7d1f11936af011fdcf135e8fc30fc5",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "pyproject.toml",
+      "kind": "other",
+      "size_bytes": 437,
+      "sha256": "3213d9cd680d291b45b61d117161d46ebb98b044d0e4deced114deeead7d7e70",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "README.md",
+      "kind": "report_or_docs",
+      "size_bytes": 7489,
+      "sha256": "ae462392980f988ab8c10d44a9dfb3868894ebfe9533ddf205732c05d1adfe2e",
+      "review_use": "first-screen reviewer orientation"
+    },
+    {
+      "path": "docs/research_brief.md",
+      "kind": "report_or_docs",
+      "size_bytes": 593,
+      "sha256": "44868f0c08efa7ecf5f1a1a050487df288e0934fe8d8baea325abd38075c1176",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/top_tier_reviewer_packet.md",
+      "kind": "report_or_docs",
+      "size_bytes": 3549,
+      "sha256": "1ea3224dba9084140861949a02f3e85d95ca86afda8e045ba18f7f3e68dabeaf",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/training_loop.md",
+      "kind": "report_or_docs",
+      "size_bytes": 98,
+      "sha256": "a316e5ea3f9463119ff109c43ed3e559882159555c1bde9f90e913d026ee9e48",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/full_training_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 1023,
+      "sha256": "b33e845a580d0db1d9740942b577d1e29c4815ed9f65767ea27486b2d0853fb1",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/maturity_review.md",
+      "kind": "report_or_docs",
+      "size_bytes": 6980,
+      "sha256": "c75f9b582d09266c652a7aa0ef2a2c3c383630e470efcb164caa507ccbd0437b",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/notes.md",
+      "kind": "report_or_docs",
+      "size_bytes": 92,
+      "sha256": "e24e0bbb8811670283f534b9e9d000d20154f9e1780221a8736dde5955fb8503",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/real_imdb_token_analysis.md",
+      "kind": "report_or_docs",
+      "size_bytes": 647,
+      "sha256": "6a862395376084d165aef70e519a12ee836ed2ce8004b7168e630aafe810e35c",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/tiny_training_analysis.md",
+      "kind": "report_or_docs",
+      "size_bytes": 614,
+      "sha256": "ca65b00c7f77f617343e3dd403b0b4800041b146b3d622c02ca4c92c51f22e61",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/transformer_from_scratch_v2_research_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 6422,
+      "sha256": "ab9cc0d57cfa3b7e41cd72c1ba8f44f38ae132ef7fd2d8545df1834086bc064c",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/transformer_gpu_training_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 2097,
+      "sha256": "96caff94c9dd74f233b08ed4641b9711621aeb344690a6676f515ca824f68193",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "scripts/analyze_failures.py",
+      "kind": "source_or_test",
+      "size_bytes": 1454,
+      "sha256": "73bc120f9b39bca7127b96cc30710529a0c277a888cbcf7ab1aaff7c40bd0b09",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "kind": "source_or_test",
+      "size_bytes": 284,
+      "sha256": "0fd00697a41c45db310f463dd8f5967d3e749c657a6985c578b0ee43837dbd96",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/gpu_experiment.py",
+      "kind": "source_or_test",
+      "size_bytes": 31340,
+      "sha256": "37b2eeade55e59da7b77ab557acc72a3f68fb4746220f136d7039d8281cc5a66",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/make_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 3469,
+      "sha256": "f67806488b727a69a782bc723859362850baf512a7b45c7ee04e3e598bedab62",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/preprocess_data.py",
+      "kind": "source_or_test",
+      "size_bytes": 223,
+      "sha256": "6295125239bb4992208c6613fae4c6af1325bb2e34c03b52cc653de13aed7fbf",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/run_experiment.py",
+      "kind": "source_or_test",
+      "size_bytes": 82,
+      "sha256": "20850eb44719474b29842436f5b147604f2ceaf5b8356cf6630b164da63d3792",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/run_matrix.py",
+      "kind": "source_or_test",
+      "size_bytes": 40862,
+      "sha256": "883126afc52d318b5db78ecb685adc8f2545cc7f7567b55391db241f190b858d",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/__init__.py",
+      "kind": "source_or_test",
+      "size_bytes": 39,
+      "sha256": "90bbb83059c9dd12cc5ea0fa684524402d096994b54af92612c65828f151846d",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/attention.py",
+      "kind": "source_or_test",
+      "size_bytes": 723,
+      "sha256": "d0d45eed38c83c877793b740c71d21bc9f18444c496d75f5c1ec5ffb7b26c2bc",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/attention_export.py",
+      "kind": "source_or_test",
+      "size_bytes": 2518,
+      "sha256": "3966b83954f7cd5eee676bf748f028e97c8520ff06dc5eabafde7ba600ff6fe3",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/block.py",
+      "kind": "source_or_test",
+      "size_bytes": 968,
+      "sha256": "b35defae8c6e45180fd61aa221f9fd09ff3d7831859e42b5cf4d02ce3f15ce73",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/checkpoint.py",
+      "kind": "source_or_test",
+      "size_bytes": 466,
+      "sha256": "95250330a37b82bd14a38706d0e9529cfda03c8bf614651ac183df1c9504dc67",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/positional.py",
+      "kind": "source_or_test",
+      "size_bytes": 352,
+      "sha256": "145a904632dbf5bff833c307fcdbe5ae6b76f04cf0798562a74f50289cf041ec",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/research_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 1598,
+      "sha256": "ae994ac73824a7cd087329891af68d9b3a6ac8efde6a0d78ad8b120ba833b876",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/tokenizer.py",
+      "kind": "source_or_test",
+      "size_bytes": 375,
+      "sha256": "a53d9e59b05d898348a366465ca5d9412e00b4a226233f666cbe45a9a20ec2ac",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/tokenizer_ablation.py",
+      "kind": "source_or_test",
+      "size_bytes": 2541,
+      "sha256": "e5795de86811a2d0498e3c31dc3c164dea1f4a36b12d0cb0aa625987a48b0885",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/training.py",
+      "kind": "source_or_test",
+      "size_bytes": 578,
+      "sha256": "66858844adb8b5da58274acb692bcd36abdd77b7ef6b8564ca735a6f058ccc67",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/transformer_from_scratch_notes/training_diagnostics.py",
+      "kind": "source_or_test",
+      "size_bytes": 2589,
+      "sha256": "056a025ff5f871efdab92e09d28f00edf45ca66010698c6e69ba9fbbf6397d3f",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "tests/conftest.py",
+      "kind": "source_or_test",
+      "size_bytes": 123,
+      "sha256": "0002b5341b19e442565f99ea21759c27046cf13b6c7f9def582f0f383471a5f5",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_attention.py",
+      "kind": "source_or_test",
+      "size_bytes": 410,
+      "sha256": "975e4a30a8995f955340a2067223ef0a262826a20a811b8b2da28987b4967d7e",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_block.py",
+      "kind": "source_or_test",
+      "size_bytes": 295,
+      "sha256": "a9068fa13f1fd76397b7eda14af6fcf0b9346a3166b6e0fba434df61d3d094b5",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_checkpoint.py",
+      "kind": "source_or_test",
+      "size_bytes": 317,
+      "sha256": "8ac1ff93c0b81f76edaf3f26695c32123438a2bb9bad6c1713fa11c2c214aa9d",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_maturity_assets.py",
+      "kind": "source_or_test",
+      "size_bytes": 999,
+      "sha256": "0f7ee583a25c01cbb093e3f06c0640c0ca768ff4bd31e994926baa88b7cb85b0",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_positional.py",
+      "kind": "source_or_test",
+      "size_bytes": 166,
+      "sha256": "a44f6d8d426f0e092d7492fd4897e9044541ef560aa1a86ec3966be6866c8627",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_real_experiment_artifacts.py",
+      "kind": "source_or_test",
+      "size_bytes": 1187,
+      "sha256": "7ada364b78f2151dbcd3ef56e72510e52451c83b3642efa5d33647539b28949e",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_real_imdb_stats.py",
+      "kind": "source_or_test",
+      "size_bytes": 369,
+      "sha256": "7b07666e4d5c460f3c9c316079bdb52ab8b9237d70e2d98dbd36fcf1384a2368",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_top_tier_quality_gate.py",
+      "kind": "source_or_test",
+      "size_bytes": 1942,
+      "sha256": "ef892c5898daa21756e3ce7620a2d9d09023d7ecfc7f93b73cd086df91ff9859",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_training.py",
+      "kind": "source_or_test",
+      "size_bytes": 217,
+      "sha256": "b580c97f760aec2c363745868659d265cd03a46e0520f791629ca178a8b25ce9",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_v2_research_artifacts.py",
+      "kind": "source_or_test",
+      "size_bytes": 1489,
+      "sha256": "c0b5d5fa3d6744af99ff7ee8d844df24f340518b59a010b68514ac0709be1d10",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "reports/demo_checkpoint.json",
+      "kind": "structured_result",
+      "size_bytes": 124,
+      "sha256": "134cee3222b230a1db1f7b7c81aae62bb6b30434baf8b68ff136bdfa8e7f808c",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/real_imdb_token_analysis.json",
+      "kind": "structured_result",
+      "size_bytes": 1105,
+      "sha256": "212a2dfb734b3bc845c10b1cefa3b1719fb44a9c15f0c0f485aa188df9112bb4",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/results/artifact_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 17948,
+      "sha256": "40d67540bdb677208625e5b432b7701f55b8aeed1198e9eb125df3c3dcc5166e",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/checkpoint_metadata.json",
+      "kind": "structured_result",
+      "size_bytes": 928,
+      "sha256": "da50c54b5fb1d258627fb9f2220285caf6c2c5cee36f5f0c3ef87204ab94d050",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/experiment_index.json",
+      "kind": "structured_result",
+      "size_bytes": 2710,
+      "sha256": "7c8d0db063461a2e6d8effc04682d975c8cbbad0bdf75a29a5641e95c573039e",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/reproducibility_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 1422,
+      "sha256": "9f2d8e0a290f430eba27fc61e1dca5ad3b72a81b255babac739fe8eb7fe4ccc9",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/tiny_transformer_metrics.json",
+      "kind": "structured_result",
+      "size_bytes": 791,
+      "sha256": "26f0cdd3a3c80db3010e9b001190fb2c5eb8282e2a3c93fb02a2a5e85276f55e",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/top_tier_quality_gate.json",
+      "kind": "structured_result",
+      "size_bytes": 651,
+      "sha256": "605f43a48854d5e06aa61f3287b21fd9bab2eb36c477ad90583ac5e85542d3c7",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_failure_analysis.json",
+      "kind": "structured_result",
+      "size_bytes": 8149,
+      "sha256": "fc48ccd5e488425a9c06d494bc7ba186b87d71c46942371d8de674910f79e021",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_misclassified_reviews.json",
+      "kind": "structured_result",
+      "size_bytes": 24077,
+      "sha256": "71915c5d37e762b2a600933b5f2d2fc8f243243c779b6237afee05c9ce6ca4f9",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "notebooks/maturity_walkthrough.ipynb",
+      "kind": "walkthrough_or_notebook",
+      "size_bytes": 2281,
+      "sha256": "4978e004b4f6d676cecc0032e17cc9d6ec2bce447b3504dd27831992d9851599",
+      "review_use": "walkthrough or original notebook evidence"
+    }
+  ]
+}

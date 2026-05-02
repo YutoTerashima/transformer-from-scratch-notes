@@ -61,6 +61,12 @@
       "layers": 3,
       "heads": 4,
       "dropout": 0.15
+    },
+    {
+      "experiment_id": "top_tier_review_gate",
+      "artifact_count": 6,
+      "coverage_score": 1.0,
+      "review_value": "evidence-backed claims, artifact provenance, reproducibility manifest, and strict audit gate"
     }
   ],
   "artifacts": [
@@ -68,7 +74,13 @@
     "reports\\results\\v2_misclassified_reviews.json",
     "reports\\figures\\v2_transformer_accuracy.png",
     "reports\\figures\\v2_transformer_f1.png",
-    "reports\\figures\\v2_transformer_parameters.png"
+    "reports\\figures\\v2_transformer_parameters.png",
+    "docs/top_tier_reviewer_packet.md",
+    "reports/results/claim_evidence_matrix.csv",
+    "reports/results/artifact_manifest.json",
+    "reports/results/reproducibility_manifest.json",
+    "reports/results/top_tier_quality_gate.json",
+    "reports/figures/top_tier_review_scores.png"
   ],
   "discussion": "This project keeps the model from scratch. V2 measures architecture tradeoffs on IMDB without using pretrained encoders, so the results reflect model design rather than transferred representations.",
   "total_runtime_seconds": 20.535
